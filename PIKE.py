@@ -12,6 +12,7 @@ def extend_key(text, key)
             res += ch
     return res
 
+
 def vigenere_encrypt(text, key)
     key = extend_key(text, key)
     result = 
@@ -92,6 +93,7 @@ def menu()
 if __name__ == __main__
     while menu()
         pass
+
 
 
 
