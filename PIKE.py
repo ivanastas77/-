@@ -2,7 +2,6 @@
 
 
 
-
 ALPHABET = ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789
 DEFAULT_KEY = PIKE
 
@@ -97,6 +96,7 @@ def menu()
 if __name__ == __main__
     while menu()
         pass
+
 
 
 
